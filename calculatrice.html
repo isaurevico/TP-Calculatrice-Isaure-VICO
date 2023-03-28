@@ -21,25 +21,26 @@
         </div>
 
         <div class="clavier">
-            <span onclick="calculatrice.afficheCalcul(7)">7</span>
-            <span onclick="calculatrice.afficheCalcul(8)">8</span>
-            <span onclick="calculatrice.afficheCalcul(9)">9</span>
-            <span id="diviser">/</span>
-            <span id="reset">C</span>
-            <span id="quatre">4</span>
-            <span id="cinq">5</span>
-            <span id="six">6</span>
-            <span id="multiplication">x</span>
-            <span id="parenthese1">&#x28;</span>
-            <span id="parenthese2">&#x29;</span>
-            <span id="un">1</span>
-            <span id="deux">2</span>
-            <span id="trois">3</span>
-            <span id="moins">-</span>
-            <span id="zero">0</span>
-            <span id="virgule">,</span>
-            <span id="plus">+</span>
-            <span id="egal">=</span>
+            <span onclick="calculatrice.afficheCalcul(7)" id="sept">7</span>
+            <span onclick="calculatrice.afficheCalcul(8)" id="huit">8</span>
+            <span onclick="calculatrice.afficheCalcul(9)" id="neuf">9</span>
+            <span onclick="calculatrice.afficheCalcul('/')" id="diviser">/</span> 
+            <span onclick="calculatrice.resetCalcul()" id="reset">C</span>
+            <span onclick="calculatrice.afficheCalcul(4)" id="quatre">4</span>
+            <span onclick="calculatrice.afficheCalcul(5)" id="cinq">5</span>
+            <span onclick="calculatrice.afficheCalcul(6)" id="six">6</span>
+            <span onclick="calculatrice.afficheCalcul('*')" id="multiplication">x</span> 
+            <span onclick="calculatrice.afficheCalcul('(')" id="parenthese1">&#x28;</span>
+            <span onclick="calculatrice.afficheCalcul(')')" id="parenthese2">&#x29;</span>
+            <span onclick="calculatrice.afficheCalcul(1)" id="un">1</span>
+            <span onclick="calculatrice.afficheCalcul(2)" id="deux">2</span>
+            <span onclick="calculatrice.afficheCalcul(3)" id="trois">3</span>
+            <span onclick="calculatrice.afficheCalcul('-')" id="moins">-</span>
+            <span onclick="calculatrice.afficheCalcul(0)" id="zero">0</span>
+            <span onclick="calculatrice.afficheCalcul('.')" id="virgule">,</span>
+            <span onclick="calculatrice.afficheCalcul('+')" id="plus">+</span>
+            <span onclick="calculatrice.effectuerCalcul()" id="egal">=</span>
+            <span onclick="calculatrice.supprCalcul()" id="suppr">←</span>
 
         </div>
     </div>
